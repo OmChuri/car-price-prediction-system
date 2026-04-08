@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoPrice AI | Premium Car Valuation</title>
+    <!-- Modern Typography from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="background-mesh">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <main class="container">
+        <header class="app-header">
+            <div class="logo">
+                <span class="gradient-text">AutoPrice AI</span>
+            </div>
+            <p class="subtitle">Next-generation vehicle valuation powered by Machine Learning.</p>
+        </header>
+
+        <div class="glass-panel main-panel">
+            <div class="panel-header">
+                <h2>Vehicle Specifications</h2>
+                <div class="indicator"></div>
+            </div>
+
+            <form action="{{ url_for('predict') }}" method="POST" class="prediction-form" id="predictionForm">
+                
+                <div class="form-grid">
+                    <!-- Make -->
+                    <div class="form-group">
+                        <label for="Make">Make</label>
+                        <div class="select-wrapper">
+                            <select name="Make" id="Make" required>
+                                <option value="" disabled selected>Select Manufacturer</option>
+                                <option value="Maruti Suzuki">Maruti Suzuki</option>
+                                <option value="Hyundai">Hyundai</option>
+                                <option value="Honda">Honda</option>
+                                <option value="Toyota">Toyota</option>
+                            </select>
+                            <div class="select-arrow"></div>
+                        </div>
+                    </div>
+
+                    <!-- Model -->
+                    <div class="form-group">
+                        <label for="Model">Model</label>
+                        <div class="select-wrapper">
+                            <select name="Model" id="Model" required>
+                                <option value="" disabled selected>Select Model</option>
+                                <!-- Models will be populated dynamically by JavaScript -->
+                            </select>
+                            <div class="select-arrow"></div>
+                        </div>
+                    </div>
+
+                    <!-- Year -->
+                    <div class="form-group input-animated">
+                        <label for="Year">Manufacture Year</label>
+                        <input type="number" name="Year" id="Year" placeholder="e.g. 2018" min="1990" max="2025" required>
+                    </div>
+
+                    <!-- Engine Size -->
+                    <div class="form-group input-animated">
+                        <label for="Engine_Size">Engine Size (Liters)</label>
+                        <input type="number" step="0.1" name="Engine_Size" id="Engine_Size" placeholder="e.g. 2.0" min="0.5" max="8.0" required>
+                    </div>
+
+                    <!-- Mileage -->
+                    <div class="form-group input-animated">
+                        <label for="Mileage">Kilometers Driven (km)</label>
+                        <input type="number" name="Mileage" id="Mileage" placeholder="e.g. 45000" min="0" required>
+                    </div>
+
+                    <!-- Fuel Type -->
+                    <div class="form-group">
+                        <label for="Fuel_Type">Fuel Type</label>
+                        <div class="select-wrapper">
+                            <select name="Fuel_Type" id="Fuel_Type" required>
+                                <option value="" disabled selected>Select Fuel Type</option>
+                                <option value="Petrol">Petrol</option>
+                                <option value="Diesel">Diesel</option>
+                                <option value="CNG">CNG</option>
+                            </select>
+                            <div class="select-arrow"></div>
+                        </div>
+                    </div>
+
+                    <!-- Transmission -->
+                    <div class="form-group">
+                        <label for="Transmission">Transmission</label>
+                        <div class="select-wrapper">
+                            <select name="Transmission" id="Transmission" required>
+                                <option value="" disabled selected>Select Transmission</option>
+                                <option value="Automatic">Automatic</option>
+                                <option value="Manual">Manual</option>
+                            </select>
+                            <div class="select-arrow"></div>
+                        </div>
+                    </div>
+
+                    <!-- Owner -->
+                    <div class="form-group">
+                        <label for="Owner">Owner History</label>
+                        <div class="select-wrapper">
+                            <select name="Owner" id="Owner" required>
+                                <option value="" disabled selected>Select Owner Level</option>
+                                <option value="First Owner">First Owner</option>
+                                <option value="Second Owner">Second Owner</option>
+                                <option value="Third Owner">Third Owner</option>
+                            </select>
+                            <div class="select-arrow"></div>
+                        </div>
+                    </div>
+
+                    <!-- Location -->
+                    <div class="form-group">
+                        <label for="Location">Location (City)</label>
+                        <div class="select-wrapper">
+                            <select name="Location" id="Location" required>
+                                <option value="" disabled selected>Select City</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Mumbai">Mumbai</option>
+                                <option value="Bangalore">Bangalore</option>
+                                <option value="Chennai">Chennai</option>
+                                <option value="Kolkata">Kolkata</option>
+                                <option value="Pune">Pune</option>
+                                <option value="Jaipur">Jaipur</option>
+                                <option value="Lucknow">Lucknow</option>
+                            </select>
+                            <div class="select-arrow"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn-predict" id="predictBtn">
+                        <span class="btn-text">Compute Value</span>
+                        <div class="btn-loader"></div>
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        {% if prediction_text %}
+        <div class="glass-panel result-panel fade-in">
+            <h3 class="result-label">Valuation Result</h3>
+            
+            {% if car_image %}
+            <div class="car-image-wrapper" style="margin: 1.5rem 0; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.2);">
+                <img src="{{ url_for('static', filename=car_image) }}" alt="Car Image" style="width: 100%; max-width: 400px; height: auto; object-fit: cover;">
+            </div>
+            {% endif %}
+
+            <div class="price-container">
+                <span class="price-value gradient-text">{{ prediction_text.replace('Estimated Car Price: ', '') }}</span>
+            </div>
+            {% if "Error" not in prediction_text %}
+            <p class="result-disclaimer">Based on current market trends and machine learning analysis.</p>
+            {% endif %}
+        </div>
+        {% endif %}
+    </main>
+
+    <script>
+        const carModels = {
+            'Maruti Suzuki': ['Swift', 'Baleno', 'Dzire', 'Ertiga', 'Ciaz', 'Brezza', 'Wagon R', 'Ritz', 'SX4', 'S Cross', 'Alto 800', 'Ignis', 'Omni'],
+            'Hyundai': ['i20', 'Grand i10', 'i10', 'Eon', 'Xcent', 'Elantra', 'Creta', 'Verna'],
+            'Honda': ['City', 'Amaze', 'Jazz', 'Brio'],
+            'Toyota': ['Fortuner', 'Innova', 'Corolla Altis', 'Etios', 'Etios Liva', 'Camry', 'Land Cruiser']
+        };
+
+        const makeSelect = document.getElementById('Make');
+        const modelSelect = document.getElementById('Model');
+
+        makeSelect.addEventListener('change', function() {
+            const selectedMake = this.value;
+            const models = carModels[selectedMake] || [];
+            
+            modelSelect.innerHTML = '<option value="" disabled selected>Select Model</option>';
+            
+            models.forEach(function(model) {
+                const option = document.createElement('option');
+                option.value = model;
+                option.textContent = model;
+                modelSelect.appendChild(option);
+            });
+        });
+
+        // Simple loading state for the button
+        document.getElementById('predictionForm').addEventListener('submit', function() {
+            var btn = document.getElementById('predictBtn');
+            btn.classList.add('loading');
+        });
+    </script>
+</body>
+</html>
