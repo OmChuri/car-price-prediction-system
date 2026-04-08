@@ -1,13 +1,13 @@
 # 🚗 Car Price Prediction System
 
-An end-to-end Machine Learning project that predicts car prices based on features like brand, year, mileage, fuel type, and transmission. The project is deployed as a web application using Flask, allowing users to get real-time predictions.
+An end-to-end Machine Learning project that predicts car prices based on features such as brand, year, mileage, fuel type, and transmission. The project is deployed as a Flask web application with a modern UI for real-time predictions.
 
 ---
 
 ## 🔥 Features
 
 * 🤖 **Machine Learning Model**
-  Built using **Random Forest Regression** to handle complex relationships between features.
+  Built using **Random Forest Regression** to capture complex relationships between car features.
 
 * 📊 **High Accuracy**
 
@@ -16,20 +16,29 @@ An end-to-end Machine Learning project that predicts car prices based on feature
   * **RMSE**: ~₹1.48 Lakh
 
 * 🌐 **Flask Web Application**
-  Users can input car details and get instant predicted prices.
+  Users can input vehicle details and get instant price predictions.
 
-* 🎨 **Modern UI**
-  Responsive design with glassmorphism and clean interface.
+* 🎨 **Modern UI Design**
+  Clean and responsive interface with glassmorphism styling.
+
+* 📁 **Multiple Datasets**
+
+  * Synthetic dataset
+  * Real-world dataset preprocessing included
 
 ---
 
 ## 📸 Screenshots
 
 ### 🔹 Input Form
-<img width="1893" height="901" alt="Screenshot 2026-04-08 201629" src="https://github.com/user-attachments/assets/f5683f86-d0c5-482e-a169-523c78350747" />
+
+<img width="1893" height="901" alt="input" src="https://github.com/user-attachments/assets/1786736f-f061-434e-ae74-fb33e16ff0d0" />
+
 
 ### 🔹 Prediction Result
-<img width="1894" height="726" alt="Screenshot 2026-04-08 201600" src="https://github.com/user-attachments/assets/adea6b89-3f5d-4363-9eeb-84e8e6bec903" />
+
+<img width="1894" height="726" alt="result" src="https://github.com/user-attachments/assets/c071dd1c-4b3f-4012-be23-0876225c3292" />
+
 
 ---
 
@@ -46,15 +55,29 @@ An end-to-end Machine Learning project that predicts car prices based on feature
 
 ```bash
 car-price-prediction-system/
-│── app.py
-│── train.py
-│── evaluate_model.py
-│── car_price_model.pkl
-│── Car_Price_Prediction.csv
+│── app.py                      # Flask application
+│── train.py                    # Model training
+│── evaluate_model.py           # Model evaluation
+│── create_data.py              # Synthetic data generation
+│── process_real_data.py        # Real data preprocessing
+│── car_price_model.pkl         # Trained ML model
+│── car_price_predictor.ipynb   # Jupyter Notebook (analysis)
+│── Car_Price_Prediction.csv    # Synthetic dataset
+│── Car_Price_Prediction_Real.csv # Real dataset
 │── requirements.txt
+│── README.md
+│
 │── templates/
+│    └── index.html            # Frontend UI
+│
 │── static/
-│── assets/        # Screenshots
+│    ├── input.png             # Screenshot - input UI
+│    ├── result.png            # Screenshot - output
+│    ├── style.css             # Styling
+│    ├── Hyundai.png           # Car images
+│    ├── Kia.png
+│    ├── Tata.png
+│    └── ...                   # Other brand images
 ```
 
 ---
@@ -87,13 +110,13 @@ pip install -r requirements.txt
 py train.py
 ```
 
-### 5. Run App
+### 5. Run Application
 
 ```bash
 py app.py
 ```
 
-### 6. Open Browser
+### 6. Open in Browser
 
 ```
 http://127.0.0.1:5000/
@@ -109,6 +132,8 @@ http://127.0.0.1:5000/
 | MAE      | ~₹1.06 Lakh |
 | RMSE     | ~₹1.48 Lakh |
 
+👉 The model performs well and predicts prices with low error.
+
 ---
 
 ## ⚠️ Limitations
@@ -121,10 +146,10 @@ http://127.0.0.1:5000/
 
 ## 🚀 Future Improvements
 
-* Use real dataset (Kaggle)
+* Use larger real-world datasets
 * Add more features (location, ownership, etc.)
-* Deploy online (Render / AWS)
-* Add API support
+* Deploy on cloud (Render / AWS)
+* Add REST API
 
 ---
 
