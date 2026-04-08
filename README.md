@@ -166,8 +166,4 @@ machine-learning, flask, random-forest, regression, data-science, car-price-pred
 🔗 LinkedIn: https://www.linkedin.com/in/om-churi
 💻 GitHub: https://github.com/OmChuri
 
----
 
-## ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub!
