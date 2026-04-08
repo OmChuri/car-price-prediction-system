@@ -1,0 +1,193 @@
+Make,Model,Year,Engine Size,Mileage,Fuel Type,Transmission,Owner,Location,Price
+Maruti Suzuki,Ritz,2014,1.5,27000,Petrol,Manual,First Owner,Delhi,335000.0
+Maruti Suzuki,SX4,2013,1.5,43000,Diesel,Manual,First Owner,Mumbai,475000.0
+Maruti Suzuki,Ciaz,2017,1.5,6900,Petrol,Manual,First Owner,Bangalore,725000.0
+Maruti Suzuki,Wagon R,2011,1.5,5200,Petrol,Manual,First Owner,Chennai,285000.0
+Maruti Suzuki,Swift,2014,1.2,42450,Diesel,Manual,First Owner,Kolkata,459999.99999999994
+Maruti Suzuki,Brezza,2018,1.5,2071,Diesel,Manual,First Owner,Delhi,925000.0
+Maruti Suzuki,Ciaz,2015,1.5,18796,Petrol,Manual,First Owner,Mumbai,675000.0
+Maruti Suzuki,S Cross,2015,1.5,33429,Diesel,Manual,First Owner,Bangalore,650000.0
+Maruti Suzuki,Ciaz,2016,1.5,20273,Diesel,Manual,First Owner,Chennai,875000.0
+Maruti Suzuki,Ciaz,2015,1.5,42367,Diesel,Manual,First Owner,Kolkata,745000.0
+Maruti Suzuki,Alto 800,2017,1.5,2135,Petrol,Manual,First Owner,Delhi,285000.0
+Maruti Suzuki,Ciaz,2015,1.5,51000,Diesel,Manual,First Owner,Mumbai,685000.0
+Maruti Suzuki,Ciaz,2015,1.5,15000,Petrol,Automatic,First Owner,Bangalore,750000.0
+Maruti Suzuki,Ertiga,2015,1.5,26000,Petrol,Manual,First Owner,Chennai,610000.0
+Maruti Suzuki,Dzire,2009,1.5,77427,Petrol,Manual,First Owner,Kolkata,225000.0
+Maruti Suzuki,Ertiga,2016,1.5,43000,Diesel,Manual,First Owner,Delhi,775000.0
+Maruti Suzuki,Ertiga,2015,1.5,41678,Diesel,Manual,First Owner,Mumbai,725000.0
+Maruti Suzuki,Ertiga,2016,1.5,43000,Diesel,Manual,First Owner,Bangalore,775000.0
+Maruti Suzuki,Wagon R,2015,1.5,35500,CNG,Manual,First Owner,Chennai,325000.0
+Maruti Suzuki,SX4,2010,1.5,41442,Petrol,Manual,First Owner,Kolkata,265000.0
+Maruti Suzuki,Ignis,2017,1.5,2400,Petrol,Manual,First Owner,Mumbai,490000.00000000006
+Maruti Suzuki,SX4,2011,1.5,50000,Petrol,Automatic,First Owner,Bangalore,440000.00000000006
+Maruti Suzuki,Wagon R,2013,1.5,56879,Petrol,Manual,First Owner,Kolkata,290000.0
+Maruti Suzuki,Swift,2011,1.2,20000,Petrol,Manual,First Owner,Delhi,300000.0
+Maruti Suzuki,Swift,2013,1.2,55138,Petrol,Manual,First Owner,Mumbai,415000.00000000006
+Maruti Suzuki,Swift,2017,1.2,16200,Petrol,Manual,First Owner,Jaipur,600000.0
+Maruti Suzuki,Ciaz,2015,1.5,45000,Diesel,Manual,First Owner,Kolkata,745000.0
+Maruti Suzuki,Ritz,2012,1.5,51439,Diesel,Manual,First Owner,Delhi,310000.0
+Maruti Suzuki,Ritz,2011,1.5,54200,Petrol,Manual,First Owner,Mumbai,235000.0
+Maruti Suzuki,Swift,2014,1.2,39000,Diesel,Manual,First Owner,Bangalore,495000.0
+Maruti Suzuki,Ertiga,2014,1.5,45000,Diesel,Manual,First Owner,Chennai,600000.0
+Maruti Suzuki,Dzire,2014,1.5,45000,Diesel,Manual,First Owner,Kolkata,550000.0
+Maruti Suzuki,SX4,2011,1.5,49998,CNG,Manual,First Owner,Delhi,295000.0
+Maruti Suzuki,Dzire,2015,1.5,48767,Petrol,Manual,First Owner,Mumbai,465000.00000000006
+Maruti Suzuki,SX4,2003,1.5,62000,Petrol,Manual,First Owner,Kolkata,225000.0
+Maruti Suzuki,Baleno,2016,1.5,24524,Petrol,Automatic,First Owner,Delhi,585000.0
+Maruti Suzuki,SX4,2008,1.5,58000,Petrol,Manual,First Owner,Bangalore,195000.0
+Maruti Suzuki,Dzire,2014,1.5,45780,Diesel,Manual,First Owner,Chennai,550000.0
+Maruti Suzuki,Omni,2012,1.5,50000,Petrol,Manual,First Owner,Kolkata,125000.0
+Maruti Suzuki,Ciaz,2014,1.5,15000,Petrol,Automatic,First Owner,Delhi,750000.0
+Maruti Suzuki,Ritz,2013,1.5,64532,Petrol,Manual,First Owner,Mumbai,265000.0
+Maruti Suzuki,Wagon R,2006,1.5,65000,Petrol,Manual,First Owner,Bangalore,105000.0
+Maruti Suzuki,Ertiga,2015,1.5,25870,Petrol,Manual,First Owner,Chennai,580000.0
+Maruti Suzuki,Ciaz,2017,1.5,37000,Petrol,Automatic,First Owner,Kolkata,775000.0
+Toyota,Fortuner,2012,1.5,104707,Diesel,Automatic,First Owner,Delhi,1490000.0
+Toyota,Fortuner,2015,1.5,40000,Diesel,Automatic,First Owner,Mumbai,2300000.0
+Toyota,Innova,2017,1.5,15000,Diesel,Automatic,First Owner,Bangalore,1800000.0
+Toyota,Fortuner,2013,1.5,135000,Diesel,Automatic,First Owner,Lucknow,1600000.0
+Toyota,Innova,2005,1.5,90000,Petrol,Manual,First Owner,Kochi,275000.0
+Toyota,Corolla Altis,2009,1.5,70000,Petrol,Automatic,First Owner,Delhi,360000.0
+Toyota,Etios Cross,2015,1.5,40534,Petrol,Manual,First Owner,Mumbai,450000.0
+Toyota,Corolla Altis,2010,1.5,50000,Petrol,Manual,First Owner,Bangalore,475000.0
+Toyota,Etios,2014,1.5,39485,Petrol,Manual,Second Owner,Chennai,409999.99999999994
+Toyota,Fortuner,2014,1.5,41000,Diesel,Automatic,First Owner,Kolkata,1998999.9999999998
+Toyota,Corolla Altis,2013,1.5,40001,Petrol,Manual,First Owner,Delhi,695000.0
+Toyota,Etios Cross,2015,1.5,40588,Petrol,Manual,First Owner,Mumbai,450000.0
+Toyota,Fortuner,2014,1.5,78000,Diesel,Automatic,First Owner,Bangalore,1875000.0
+Toyota,Fortuner,2015,1.5,47000,Diesel,Automatic,First Owner,Chennai,2350000.0
+Toyota,Fortuner,2017,1.5,6000,Diesel,Automatic,First Owner,Kolkata,3300000.0
+Toyota,Etios Liva,2014,1.5,45000,Diesel,Manual,First Owner,Delhi,475000.0
+Toyota,Innova,2017,1.5,11000,Petrol,Automatic,First Owner,Mumbai,1975000.0
+Toyota,Fortuner,2010,1.5,59000,Diesel,Manual,First Owner,Bangalore,925000.0
+Toyota,Corolla Altis,2011,1.5,88000,Petrol,Manual,First Owner,Chennai,434999.99999999994
+Toyota,Corolla Altis,2016,1.5,12000,Petrol,Manual,First Owner,Kolkata,1425000.0
+Toyota,Etios Liva,2014,1.5,71000,Diesel,Manual,First Owner,Delhi,395000.0
+Toyota,Corolla Altis,2011,1.5,45000,Diesel,Manual,First Owner,Mumbai,450000.0
+Toyota,Corolla Altis,2013,1.5,56001,Petrol,Manual,First Owner,Bangalore,745000.0
+Toyota,Etios Liva,2011,1.5,43000,Petrol,Manual,First Owner,Chennai,265000.0
+Toyota,Etios Cross,2014,1.5,83000,Diesel,Manual,First Owner,Kolkata,490000.00000000006
+Toyota,Etios,2015,1.5,36000,Petrol,Manual,First Owner,Delhi,395000.0
+Toyota,Corolla Altis,2013,1.5,72000,Petrol,Manual,First Owner,Mumbai,550000.0
+Toyota,Corolla Altis,2010,1.5,80000,Petrol,Automatic,First Owner,Chennai,525000.0
+Toyota,Fortuner,2012,1.5,89000,Diesel,Automatic,First Owner,Kolkata,1450000.0
+Toyota,Corolla Altis,2016,1.5,23000,Diesel,Manual,First Owner,Delhi,1473000.0
+Toyota,Innova,2017,1.5,15000,Diesel,Automatic,First Owner,Bangalore,2300000.0
+Toyota,Innova,2015,1.5,38000,Diesel,Manual,First Owner,Chennai,1250000.0
+Toyota,Innova,2005,1.5,197176,Diesel,Manual,First Owner,Kolkata,349000.0
+Toyota,Camry,2006,1.5,142000,Petrol,Automatic,Third Owner,Ahmedabad,250000.0
+Toyota,Land Cruiser,2010,1.5,78000,Diesel,Manual,First Owner,Mumbai,3500000.0
+Toyota,Corolla Altis,2012,1.5,56000,Petrol,Manual,First Owner,Bangalore,590000.0
+Toyota,Etios Liva,2013,1.5,47000,Petrol,Manual,First Owner,Chennai,345000.0
+Toyota,Etios,2014,1.5,40000,Petrol,Manual,First Owner,Kolkata,475000.0
+Toyota,Corolla Altis,2009,1.5,62000,Petrol,Manual,First Owner,Delhi,380000.0
+Toyota,Innova,2014,1.5,58242,Diesel,Manual,First Owner,Mumbai,1125000.0
+Toyota,Innova,2005,1.5,75000,Petrol,Manual,First Owner,Bangalore,351000.0
+Toyota,Fortuner,2015,1.5,40000,Diesel,Automatic,First Owner,Chennai,2300000.0
+Toyota,Corolla Altis,2008,1.5,89000,Petrol,Automatic,First Owner,Kolkata,400000.0
+Toyota,Corolla Altis,2012,1.5,72000,Petrol,Manual,First Owner,Delhi,585000.0
+Toyota,Innova,2016,1.5,29000,Diesel,Automatic,First Owner,Mumbai,2075000.0
+Toyota,Corolla Altis,2017,1.5,8700,Petrol,Manual,First Owner,Bangalore,1700000.0
+Toyota,Corolla Altis,2013,1.5,45000,Petrol,Manual,First Owner,Chennai,705000.0
+Toyota,Fortuner,2010,1.5,50024,Diesel,Manual,First Owner,Kolkata,965000.0
+Hyundai,i20,2010,1.5,58000,Diesel,Manual,Second Owner,Mumbai,325000.0
+Hyundai,Grand i10,2015,1.2,28200,Petrol,Manual,First Owner,Bangalore,440000.00000000006
+Hyundai,i10,2011,1.2,53460,Petrol,Manual,First Owner,Chennai,295000.0
+Hyundai,Eon,2015,1.5,28282,Petrol,Manual,First Owner,Kolkata,275000.0
+Hyundai,Grand i10,2016,1.2,3493,Petrol,Manual,Second Owner,Delhi,525000.0
+Hyundai,Xcent,2017,1.5,12479,Petrol,Manual,First Owner,Mumbai,575000.0
+Hyundai,Grand i10,2015,1.2,34797,Petrol,Automatic,First Owner,Bangalore,515000.00000000006
+Hyundai,i20,2017,1.5,3435,Petrol,Manual,First Owner,Chennai,790000.0
+Hyundai,Grand i10,2015,1.2,21125,Diesel,Manual,First Owner,Kolkata,484999.99999999994
+Hyundai,i10,2012,1.2,35775,Petrol,Manual,First Owner,Delhi,310000.0
+Hyundai,Elantra,2015,1.5,43535,Diesel,Manual,First Owner,Mumbai,1175000.0
+Hyundai,Creta,2016,1.5,22671,Petrol,Manual,First Owner,Bangalore,1125000.0
+Hyundai,i20,2011,1.5,31604,Petrol,Manual,First Owner,Chennai,290000.0
+Hyundai,Grand i10,2017,1.2,20114,Petrol,Manual,First Owner,Kolkata,525000.0
+Hyundai,Verna,2012,1.5,36100,Petrol,Manual,First Owner,Delhi,450000.0
+Hyundai,Eon,2016,1.5,12500,Petrol,Manual,First Owner,Mumbai,290000.0
+Hyundai,Eon,2016,1.5,15000,Petrol,Manual,First Owner,Bangalore,315000.0
+Hyundai,Verna,2014,1.5,45078,Petrol,Manual,First Owner,Chennai,645000.0
+Hyundai,Verna,2012,1.5,36000,Petrol,Manual,First Owner,Kolkata,450000.0
+Hyundai,Eon,2017,1.5,38488,Petrol,Manual,First Owner,Delhi,350000.0
+Hyundai,i20,2013,1.5,32000,Petrol,Automatic,First Owner,Mumbai,450000.0
+Hyundai,i20,2014,1.5,77632,Diesel,Manual,First Owner,Bangalore,600000.0
+Hyundai,Verna,2015,1.5,61381,Diesel,Manual,First Owner,Chennai,825000.0
+Hyundai,Verna,2013,1.5,36198,Petrol,Automatic,First Owner,Kolkata,511000.00000000006
+Hyundai,i10,2011,1.2,22517,Petrol,Manual,First Owner,Delhi,270000.0
+Hyundai,Grand i10,2015,1.2,24678,Petrol,Manual,First Owner,Mumbai,525000.0
+Hyundai,i10,2011,1.2,57000,Petrol,Manual,First Owner,Bangalore,254999.99999999997
+Hyundai,Verna,2012,1.5,60000,Diesel,Manual,First Owner,Chennai,495000.0
+Hyundai,i20,2012,1.5,52132,Diesel,Manual,First Owner,Kolkata,310000.0
+Hyundai,Verna,2013,1.5,45000,Diesel,Manual,First Owner,Delhi,615000.0
+Hyundai,Verna,2017,1.5,15001,Petrol,Manual,First Owner,Mumbai,925000.0
+Hyundai,Elantra,2015,1.5,12900,Petrol,Automatic,First Owner,Bangalore,1145000.0
+Hyundai,Grand i10,2013,1.2,53000,Diesel,Manual,First Owner,Chennai,390000.0
+Hyundai,Grand i10,2015,1.2,4492,Petrol,Manual,First Owner,Kolkata,550000.0
+Hyundai,Verna,2017,1.5,15141,Petrol,Manual,First Owner,Delhi,910000.0
+Hyundai,Eon,2016,1.5,11849,Petrol,Manual,First Owner,Mumbai,310000.0
+Hyundai,Creta,2015,1.5,68000,Diesel,Manual,First Owner,Bangalore,1125000.0
+Hyundai,Verna,2013,1.5,60241,Petrol,Manual,First Owner,Chennai,480000.0
+Hyundai,Eon,2012,1.5,23709,Petrol,Manual,First Owner,Kolkata,200000.0
+Hyundai,Verna,2012,1.5,32322,Diesel,Manual,First Owner,Delhi,535000.0
+Hyundai,Xcent,2015,1.5,35866,Petrol,Manual,Second Owner,Mumbai,475000.0
+Hyundai,Xcent,2014,1.5,34000,Petrol,Manual,First Owner,Bangalore,440000.00000000006
+Hyundai,i20,2016,1.5,7000,Petrol,Manual,First Owner,Chennai,625000.0
+Hyundai,Verna,2013,1.5,49000,Diesel,Manual,First Owner,Kolkata,595000.0
+Hyundai,Verna,2012,1.5,71000,Diesel,Manual,First Owner,Delhi,520000.0
+Hyundai,i20,2012,1.5,35000,Petrol,Manual,First Owner,Mumbai,375000.0
+Hyundai,Verna,2015,1.5,36000,Petrol,Manual,First Owner,Bangalore,595000.0
+Hyundai,i10,2013,1.2,30000,Petrol,Manual,First Owner,Chennai,400000.0
+Hyundai,i20,2016,1.5,17000,Petrol,Manual,First Owner,Kolkata,525000.0
+Hyundai,Creta,2016,1.5,35934,Diesel,Manual,First Owner,Delhi,1290000.0
+Honda,City,2013,1.5,56701,Petrol,Manual,First Owner,Mumbai,500000.0
+Honda,Brio,2015,1.5,31427,Petrol,Automatic,First Owner,Bangalore,540000.0
+Honda,City,2014,1.5,48000,Diesel,Manual,First Owner,Chennai,720000.0
+Honda,City,2013,1.5,54242,Petrol,Manual,First Owner,Kolkata,525000.0
+Honda,Brio,2012,1.5,53675,Petrol,Manual,First Owner,Delhi,300000.0
+Honda,City,2016,1.5,49562,Petrol,Manual,First Owner,Mumbai,1025000.0
+Honda,City,2015,1.5,40324,Petrol,Manual,First Owner,Bangalore,850000.0
+Honda,City,2015,1.5,25000,Petrol,Manual,First Owner,Chennai,840000.0
+Honda,Amaze,2014,1.5,36054,Petrol,Manual,First Owner,Kolkata,390000.0
+Honda,City,2016,1.5,29223,Petrol,Manual,First Owner,Delhi,915000.0
+Honda,Brio,2016,1.5,5600,Petrol,Manual,First Owner,Mumbai,550000.0
+Honda,Amaze,2015,1.5,40023,Petrol,Manual,First Owner,Bangalore,400000.0
+Honda,Jazz,2016,1.5,16002,Petrol,Manual,First Owner,Chennai,660000.0
+Honda,Amaze,2015,1.5,40026,Petrol,Manual,First Owner,Kolkata,400000.0
+Honda,Jazz,2017,1.5,21200,Petrol,Manual,First Owner,Delhi,650000.0
+Honda,Amaze,2014,1.5,35000,Petrol,Manual,First Owner,Mumbai,365000.0
+Honda,City,2016,1.5,19434,Diesel,Manual,First Owner,Bangalore,835000.0
+Honda,Brio,2017,1.5,19000,Petrol,Manual,First Owner,Chennai,480000.0
+Honda,City,2015,1.5,18828,Petrol,Manual,First Owner,Kolkata,670000.0
+Honda,City,2011,1.5,69341,Petrol,Manual,First Owner,Delhi,409999.99999999994
+Honda,City,2009,1.5,69562,Petrol,Manual,First Owner,Mumbai,300000.0
+Honda,City,2015,1.5,27600,Petrol,Manual,First Owner,Bangalore,750000.0
+Honda,Jazz,2010,1.5,61203,Petrol,Manual,First Owner,Chennai,225000.0
+Honda,Brio,2014,1.5,16500,Petrol,Manual,First Owner,Kolkata,530000.0
+Honda,City,2016,1.5,30753,Petrol,Automatic,First Owner,Delhi,1090000.0
+Honda,City,2015,1.5,24800,Petrol,Manual,First Owner,Mumbai,865000.0
+Honda,City,2015,1.5,21780,Petrol,Manual,First Owner,Bangalore,969999.9999999999
+Honda,Jazz,2016,1.5,4000,Petrol,Manual,First Owner,Chennai,600000.0
+Honda,City,2014,1.5,40126,Petrol,Manual,First Owner,Kolkata,625000.0
+Honda,Brio,2015,1.5,14465,Petrol,Manual,First Owner,Delhi,525000.0
+Honda,City,2006,1.5,50456,Petrol,Manual,First Owner,Mumbai,210000.0
+Honda,City,2014,1.5,63000,Diesel,Manual,First Owner,Bangalore,825000.0
+Honda,City,2016,1.5,9010,Petrol,Manual,First Owner,Chennai,899000.0
+Honda,Brio,2013,1.5,9800,Petrol,Manual,First Owner,Kolkata,350000.0
+Honda,Jazz,2016,1.5,15059,Petrol,Automatic,First Owner,Delhi,740000.0
+Honda,Jazz,2016,1.5,28569,Petrol,Manual,First Owner,Mumbai,565000.0
+Honda,Amaze,2015,1.5,44000,Petrol,Automatic,First Owner,Bangalore,575000.0
+Honda,City,2015,1.5,34000,Petrol,Manual,First Owner,Chennai,840000.0
+Honda,City,2016,1.5,10980,Petrol,Manual,First Owner,Kolkata,1011000.0
+Honda,Amaze,2014,1.5,19000,Petrol,Manual,First Owner,Delhi,450000.0
+Honda,Brio,2015,1.5,31427,Petrol,Manual,First Owner,Mumbai,540000.0
+Honda,Jazz,2016,1.5,12000,Petrol,Manual,First Owner,Bangalore,640000.0
+Honda,City,2010,1.5,38000,Petrol,Manual,First Owner,Chennai,325000.0
+Honda,Amaze,2014,1.5,33019,Petrol,Manual,First Owner,Kolkata,375000.0
+Honda,City,2015,1.5,60076,Diesel,Manual,First Owner,Delhi,855000.0000000001
+Honda,City,2016,1.5,33988,Diesel,Manual,First Owner,Mumbai,950000.0
+Honda,Brio,2015,1.5,60000,Petrol,Manual,First Owner,Bangalore,400000.0
+Honda,City,2009,1.5,87934,Petrol,Manual,First Owner,Chennai,335000.0
+Honda,City,2017,1.5,9000,Diesel,Manual,First Owner,Kolkata,1150000.0
+Honda,Brio,2016,1.5,5464,Petrol,Manual,First Owner,Delhi,530000.0
